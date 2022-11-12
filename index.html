@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Libros para tu vida"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymousB">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Catalogo de libros</title>
+</head>
+<body>
+
+    <!--NAVBAR-->
+
+  <header>
+      <nav>
+        <ul class="nav justify-content-baseline">
+          <li class="nav-item">
+            <a class="nav-link active" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold'; color: #ffffff;" aria-current="page"href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold'; color: #ffffff;" href="#">Libros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold'; color: #ffffff;" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold'; color: #ffffff;" href="#">Ayuda</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+<br>
+
+<!--CAROUSEL-->
+<section class="carousel">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/libros1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/libros2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/libros3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<br>
+<!--FILA C.FICCION-->
+<h2>Ciencia ficcion</h2>
+<br>
+<div class="cartas-libros">
+  <div class="container-ficcion">
+    <div class="row">
+      <div class="col-1">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/lotr.webp" class="card-img-top" alt="portada el señor de los anillos">
+          <div class="card-body">
+            <h4 class="card-title">El señor de los anillos: la comunidad del anillo</h4>
+            <p class="card-text"> En la Tierra Media, el Señor Oscuro Sauron forjó los Grandes Anillos del Poder y creó uno con el poder de esclavizar a toda la Tierra Media.</p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/hp.webp" class="card-img-top" alt="portada harry potter">
+          <div class="card-body">
+            <h4 class="card-title">Harry potter y la piedra filosofal</h4>
+            <p class="card-text">Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y del insoportable primo Dudley. Se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. </p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/viaje-submarino.jpg" class="card-img-top" alt="portada veinte mil leguas viaje submarino">
+          <div class="card-body">
+            <h4 class="card-title">Veinte mil leguas de viaje submarino</h4>
+            <p class="card-text">Un viaje alucinante por el fondo marino a bordo del Nautilus, capitaneado por el enigmático Nemo.</p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!--FILA TERROR-->
+<h2>Terror</h2>
+<br>
+<div class="cartas-libros">
+  <div class="container-terror">
+    <div class="row">
+      <div class="col-1">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/it.webp" class="card-img-top" alt="portada libro it">
+          <div class="card-body">
+            <h4 class="card-title">IT (Eso)</h4>
+            <p class="card-text">Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil. </p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/dracula.jpg" class="card-img-top" alt="portada dracula">
+          <div class="card-body">
+            <h4 class="card-title">Drácula</h4>
+            <p class="card-text">El conde Drácula se comporta de forma extraña por las noches, y esto es descubierto por un abogado, Jonathan Harker, el cúal sigue a Drácula hasta Inglaterra, lugar en el que busca nuevas víctimas y entre ella se encuentra la prometida del abogado.</p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/vuelta-de-tuerca.jpg" class="card-img-top" alt="portada otra vuelta de tuerca">
+          <div class="card-body">
+            <h4 class="card-title">Otra vuelta de tuerca</h4>
+            <p class="card-text">Una joven institutriz es enviada a una casa de campo para hacerse cargo de dos niños huérfanos, Miles y Flora. Inquieta por un presagio oscuro dentro de casa, empieza a creer que algo o alguien malévolo está acechando a los niños.</p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!--FILA POLICIALES-->
+<h2>Policiales</h2>
+<br>
+<div class="cartas-libros">
+  <div class="container-ficcion">
+    <div class="row">
+      <div class="col-1">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/escarlata.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Estudio en escarlata</h4>
+            <p class="card-text">Es la primera historia del legendario detective Sherlock Holmes y de su amigo, el doctor Watson, un cirujano militar que regresa a Londres luego de su participación en la guerra de Afganistán.</p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/orient-express.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Asesinato en el expreso de oriente</h4>
+            <p class="card-text"> Durante un viaje en el legendario tren Orient Express; el detective belga Hercules Poirot investiga un asesinato cometido en el trayecto; y a resultas del cual todos los pasajeros del tren son sospechosos del mismo.</p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem; background-color: #040035; color: #ffffff; font-family: Comic Sans MS, 'Trebuchet MS', sans-serif;">
+          <img src="./img/calle-morgue.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Los crimenes de la calle morgue</h4>
+            <p class="card-text">Se produce el bárbaro asesinato de dos mujeres en un apartamento de una populosa calle de París. Las primeras pesquisas que lleva a cabo la brigada de investigaciones de la policía no dan resultado alguno, evidenciándose la ineficacia de sus acciones para esclarecer los hechos.</p>
+            <a href="#" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
